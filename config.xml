@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Tap and Catch</name>
+    <description>A very funny game?, ah, yes it is (trust me, I need to eat)</description>
+    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+
+    
+    <!-- Agrega la sección platform para Android -->
+    <platform name="android">
+        <!-- Configuraciones específicas de Android aquí -->
+        <icon src="./platforms/android/app/src/main/res/drawable/icono.png" />
+    </platform>
+</widget>

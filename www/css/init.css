@@ -1,0 +1,51 @@
+/*Use this to import all css files*/
+/*@import "../../bootstrap/dist/css/bootstrap.min.css";*/
+/*@import "../css/bootstrap-4.5.3/dist/css/bootstrap.min.css";*/
+/*@import "./bootstrap4_5.css";*/
+
+@import "./svg-icons.css";
+@import "./loading-page.css";
+/*@import "./table-products.css";
+@import "./navbar.css";
+@import "./main-div.css";
+@import "./nueva-solicitud.css";
+*/
+
+body{
+    font-family: 'Hind', sans-serif;
+    background-color: whitesmoke;
+}
+
+@font-face {
+    font-family: 'Futura Bold Italic';
+    src: url('./Futura_Bold_Italic_Font/Futura-Bold-Italic.eot');
+    src: url('./Futura_Bold_Italic_Font/Futura-Bold-Italic.woff2') format('woff2'),
+        url('./Futura_Bold_Italic_Font/Futura-Bold-Italic.woff') format('woff'),
+        url('./Futura_Bold_Italic_Font/Futura-Bold-Italic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+.pageApp{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+hr{
+    border-top: 1px solid rgb(0 0 0 / 5%);
+}
+
+/*
+.test{
+    border: 1px solid red;
+    width: min-content;
+}
+*/
+
+.hide{
+    display: none;
+}
+/*Time updated: 21/01/2024 6:29 p.m.*/
